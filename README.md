@@ -27,5 +27,5 @@ This meta file’s intention is to help you streamline the process and break dow
 5. ## Generate the agent NPC and finish the experiment 
 
 	Once you have selected the spot, please generate a new config file (YAML file) and a corresponding Python script (same_name.py) to run your scenario by running. `python opencda.py -t your_scenario_name`
-It is a good practice to disable the performance analysis or plots and focus on the environment first, and then add more functions step-wise. 
+It is a good practice to disable the performance analysis or plots and focus on the environment first, and then add more functions step-wise. **Note: run all python script within the "opencda" conda env.** If you encounter "cannot import carla" error, this usually means you forgot the conda env.
    
