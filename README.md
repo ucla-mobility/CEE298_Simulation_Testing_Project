@@ -14,11 +14,11 @@ This meta file’s intention is to help you streamline the process and break dow
 
 2. ## Review the default CARLA maps (Towns)
 
-   A detailed CARLA map introduction can be found [here](https://carla.readthedocs.io/en/0.9.14/core_map/#the-map). A list of all ten maps can be found [here](https://carla.readthedocs.io/en/0.9.14/core_map/#non-layered-maps). After selecting the desired NHTSA scenario to recreate, you can go through these 10 CARLA towns to select a map to create your scenario. Please note these 10 towns are built with different emphasis, so select the corresponding map based on your own needs.
+   A detailed CARLA map introduction can be found [here](https://carla.readthedocs.io/en/0.9.14/core_map/#the-map). A list of all ten maps can be found [here](https://carla.readthedocs.io/en/0.9.14/core_map/#non-layered-maps). After selecting the desired NHTSA scenario to recreate, you can go through these 10 CARLA towns to select a map to create your scenario. Please note that these 10 towns are built with different emphasis, so select the corresponding map based on your own needs.
 
 3. ## Review the OpenCDA scenario YAML files
 
-   
+   OpenCDA loads the scenario by reading the scenario configuration file. This file dictates all the details in the testing scenario, such as what vehicles are included in the scene, where they are spawned, where they are trying to go, and what their behaviors are. In addition, these files set the OpenCDA in different modes; for example, trajectory analysis can be turned on/off here. All the existing sample scenarios provided in OpenCDA are listed [here](https://github.com/ucla-mobility/OpenCDA/tree/main/opencda/scenario_testing/config_yaml), and their corresponding Python scripts (i.e., [same_name].py) are stored [here](https://github.com/ucla-mobility/OpenCDA/tree/main/opencda/scenario_testing). **It is important to look at these config files and determine what information is needed for your own customized scenario.** 
 
 4. ## Find the desired spots 
 
