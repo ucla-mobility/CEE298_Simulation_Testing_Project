@@ -10,7 +10,7 @@ This meta file’s intention is to help you streamline the process and break dow
 
 1. ## Read the NHTSA Dataset 
 
-	The NHTSA dataset we used contains a list of scenarios that we selected from the official "Pre-Crash Scenario Typology for Crash Avoidance Research." A [detailed document](https://github.com/ucla-mobility/CEE298_Simulation_Testing_Project/blob/main/NHTSA%20dataset/cee%20298%20scenario%20docs.pdf) is uploaded to the "NHTSA dataset" folder within the repo. The list we are using is summarized in "cee 298 scenario docs.pdf," and the original pre-crash document is also uploaded in the same directory as a reference.
+	The NHTSA dataset we used contains a list of scenarios that we selected from the official "Pre-Crash Scenario Typology for Crash Avoidance Research." A [detailed document](https://github.com/ucla-mobility/CEE298_Simulation_Testing_Project/blob/main/NHTSA%20dataset/cee%20298%20scenario%20docs.pdf) is uploaded to the ["NHTSA dataset"]() folder within the repo. The list we are using is summarized in "cee 298 scenario docs.pdf," and the original pre-crash document is also uploaded in the same directory as a reference.
 
 2. ## Review the default CARLA maps (Towns)
 
@@ -22,10 +22,10 @@ This meta file’s intention is to help you streamline the process and break dow
 
 4. ## Find the desired spots 
 
+   Please refer to [this directory](https://github.com/ucla-mobility/CEE298_Simulation_Testing_Project/tree/main/Navigate%20Carla) to learn how to navigate through CARLA. Basically, you need to read all existing waypoints in CARLA and print them on screen to learn the exact location of the spot you chose. Then in the CARLA config file, use this location to initiate the scenario.   
+
+5. ## Generate the agent NPC and finish the experiment 
+
+	Once you have selected the spot, please generate a new config file (YAML file) and a corresponding Python script (same_name.py) to run your scenario by running. `python opencda.py -t your_scenario_name`
+It is a good practice to disable the performance analysis or plots and focus on the environment first, and then add more functions step-wise. **Note: run all python script within the "opencda" conda env.** If you encounter "cannot import carla" error, this usually means you forgot the conda env.
    
-
-5. ## Generate the agent and NPC 
-
-   
-
-6. ## Run the experiment 
