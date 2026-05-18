@@ -10,11 +10,11 @@ This meta file’s intention is to help you streamline the process and break dow
 
 1. ## Read the NHTSA Dataset 
 
-	
+	The NHTSA dataset we used contains a list of scenarios that we selected from the official "Pre-Crash Scenario Typology for Crash Avoidance Research." A [detailed document](https://github.com/ucla-mobility/CEE298_Simulation_Testing_Project/blob/main/NHTSA%20dataset/cee%20298%20scenario%20docs.pdf) is uploaded to the "NHTSA dataset" folder within the repo. The list we are using is summarized in "cee 298 scenario docs.pdf," and the original pre-crash document is also uploaded in the same directory as a reference.
 
 2. ## Review the default CARLA maps (Towns)
 
-   
+   A detailed CARLA map introduction can be found [here](https://carla.readthedocs.io/en/0.9.14/core_map/#the-map). A list of all ten maps can be found [here](https://carla.readthedocs.io/en/0.9.14/core_map/#non-layered-maps). After selecting the desired NHTSA scenario to recreate, you can go through these 10 CARLA towns to select a map to create your scenario. Please note these 10 towns are built with different emphasis, so select the corresponding map based on your own needs.
 
 3. ## Review the OpenCDA scenario YAML files
 
