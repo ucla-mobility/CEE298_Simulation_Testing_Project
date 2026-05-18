@@ -9,9 +9,7 @@
 
 	<img width="554" height="134" alt="image" src="https://github.com/user-attachments/assets/7daa1954-088a-444f-a36c-9dd22a865cbd" />
 
-
-3. ## Scenario C: Using CP to inform vehicles about VRUs at mid-block crossings or intersections, VRUs jaywalking, VRUs occluded by large vehicles, and VRUs
-sharing the right-of-way with cars
+3. ## Scenario C: Using CP to inform vehicles about VRUs at mid-block crossings or intersections, VRUs jaywalking, VRUs occluded by large vehicles, and VRUs sharing the right-of-way with cars
 
 	<img width="319" height="240" alt="image" src="https://github.com/user-attachments/assets/85e104ba-5f37-412a-a309-d0d7b3716427" />
 
